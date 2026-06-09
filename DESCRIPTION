@@ -1,0 +1,13 @@
+Package: CsoRt
+Type: Package
+Title: CsoRt
+Version: 0.1.0
+Author: Julian <j3mierz@gmail.com>
+Maintainer: Julian <j3mierz@gmail.com>
+Description: Implementation of sorting algorithms in C
+Quick, Merge, Radix, Heap, Shell, Counting, Bubble, Selection, Insertion
+License: GPL-3
+Encoding: UTF-8
+Config/roxygen2/version: 8.0.0
+Suggests: 
+    tinytest
