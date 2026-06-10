@@ -9,6 +9,14 @@ Base R's `sort()` is great, but sometimes you need raw C performance, specific a
 The package includes 7 classic algorithms:
 
 * **O(n log n):** Quick Sort, Merge Sort
-* **O(n):** Count Sort (strictly checks for integer inputs)
-* **O(n^2) & Others:** Shell Sort, Insertion Sort, Selection Sort, Bubble Sort
+* **O(n):** Count Sort, which strictly checks for integer inputs
+* **O(n²) & Others:** Shell Sort, Insertion Sort, Selection Sort, Bubble Sort
+
+<p align="center">
+  <img src="img/benchmark_czas.png" alt="Time benchmark of sorting algorithms" width="850">
+</p>
+
+<p align="center">
+  <img src="img/benchmark_pamiec.png" alt="RAM usage benchmark of sorting algorithms" width="850">
+</p>
 
